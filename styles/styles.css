@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+    overflow: hidden;
+  }
+  .center-box {
+    width: 300px;
+    height: 200px;
+    background: radial-gradient(at left, #2f4968 40%, #6071cf 100%);
+    border-radius: 8px;
+    box-shadow: 0 1px 15px;
+    text-align: center;
+    padding: 20px;
+    color: #dbd2d2;
+    font-size: 32px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: 200;
+}
+.mainTitle{
+    color: #dbd2d2;
+    font-size: 32px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: 200;
+    text-wrap: 300px;
+}
